@@ -14,6 +14,6 @@ input_string = input('Введите числа через пробел: ')
 
 print("Сумма чисел: ", string_sum(input_string))
 
-second_input_string = input('Введите числа через пробел: ')
+second_input_string = input('Введите числа через пробел (подсчёт суммы завершится при введении символа, отличного от числа): ')
 
 print("Сумма чисел: ", string_sum(input_string) + string_sum(second_input_string))
